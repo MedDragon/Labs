@@ -90,5 +90,6 @@ class Employee {
         System.out.println("Employee name: " + getName());
         System.out.println("Employee surname: " + getSurname());
         System.out.println("Employee salary: " + getSalary());
+
     }
 }
