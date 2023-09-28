@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         try {
-            Employee employee1 = new Employee("John", "Doe", 5000.0);
+            Employee employee1 = new Employee("Johnw", "Doe", 5000.0);
             employee1.getEmployeeInfo();
         } catch (FieldLengthLimitException | IncorrectSalaryException e) {
             System.out.println("Error: " + e.getMessage());
